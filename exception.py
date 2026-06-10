@@ -1,8 +1,8 @@
 class BankError(Exception):
     pass
-class InvalideAccountError(BankError):
+class InvalideAccounttError(BankError):
     pass
 class InsufficientBalanceError(BankError):
     pass
-class AccountNotFound(BankError):
+class AccountNotFoundError(BankError):
     pass

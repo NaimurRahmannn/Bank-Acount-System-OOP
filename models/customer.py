@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 
-class Customar:
+@dataclass
+class Customer:
     customer_id:int
     name: str
     email: str
